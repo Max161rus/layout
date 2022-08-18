@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My first layout</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="keywords" content="HTML, CSS" />
+  <meta name="descriptions" content="Layout about yourself" />
+  <meta name="author" content="Maxim Oligov" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="container">
+
+  <header class="header">
+    <img class="header__img" src="icons/WD.svg" height="60px" width="96px" alt="logotype" />
+    <nav class="header__nav">
+      <ul class="header__ul">
+        <li class="header__item"><a class="header__link header-link" href="#">ГЛАВНАЯ</a></li>
+        <li class="header__item"><a class="header__link" href="#">ОБ АВТОРЕ</a></li>
+        <li class="header__item"><a class="header__link" href="#">РАБОТЫ</a></li>
+        <li class="header__item"><a class="header__link" href="#">ПРОЦЕСС</a></li>
+        <li class="header__item"><a class="header__link" href="#">КОНТАКТЫ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="first-screen">
+      <div class="first-screen__design">
+        <h1 class="first-screen__heading">Дизайн и верстка</h1>
+        <br/>
+        <br/>
+        <p class="first-screen__description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br/>
+          вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов <br/>
+          на латинице с начала XVI века.</p>
+          <br/>
+          <br/>
+        <button class="btn">НАПИСАТЬ МНЕ</button>
+      </div>
+      <img class="first-screen__img" src="icons/Frame.svg" height="233.7px" width="357px" alt="open laptop book" />
+    </section>
+
+    <section class="about-me">
+      <h1 class="about-me__heading">Обо мне</h1>
+      <br/>
+      <br/>
+      <p class="about-me__description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br/>
+         вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов <br/>
+         на латинице с начала XVI века.</p>
+    </section>
+
+    <section class="numbers">
+      <div class="numbers__container">
+        <div class="numbers__wrapper"><img class="numbers__item" src="icons/numbers__item.svg" height="50px" width="141px" alt="number of projects"/></div>
+        <div class="numbers__wrapper"><img class="numbers__item" src="icons/numbers__item.svg" height="50px" width="141px" alt="number of projects"/></div>
+        <div class="numbers__wrapper"><img class="numbers__item" src="icons/numbers__item.svg" height="50px" width="141px" alt="number of projects"/></div>
+        <div class="numbers__wrapper"><img class="numbers__item" src="icons/numbers__item.svg" height="50px" width="141px" alt="number of projects"/></div>
+        <div class="numbers__wrapper"><img class="numbers__item" src="icons/numbers__item.svg" height="50px" width="141px" alt="number of projects"/></div>
+        <div class="numbers__wrapper"><img class="numbers__item" src="icons/numbers__item.svg" height="50px" width="141px" alt="number of projects"/></div>
+      </div>
+    </section>
+
+    <section class="skills">
+      <div class="skills__wrapper">
+        <div class="skills__container">
+          <h1 class="skills__heading">Мои навыки</h1>
+          <div class="skills__list">
+            <div class="skills__block">
+              <p class="skills__paragraph">Adobe Photoshop</p>
+              <div class="skills__item">
+                <div class="skills__item skills-item"></div>
+              </div>
+            </div>
+            <div class="skills__block">
+              <p class="skills__paragraph">Adobe Photoshop</p>
+              <div class="skills__item">
+                <div class="skills__item skills-item"></div>
+              </div>
+            </div>
+            <div class="skills__block">
+              <p class="skills__paragraph">Adobe Photoshop</p>
+              <div class="skills__item">
+                <div class="skills__item skills-item"></div>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <img class="skills__avatar" src="icons/Avatar.svg" height="450px" width="555px" alt="avatar"/>
+      </div>
+    </section>
+
+    <section class="video">
+      <div class="video__wrapper">
+        <h1 class="video__heading">Как я работаю</h1>
+        <p class="video__paragraph">Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br/>
+          вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов <br/>
+          на латинице с начала XVI века.</p>
+        <div class="video__container">
+          <img class="video_img" src="icons/Rectangle.svg" alt="code Java Script"/>
+          <img class="video_btn" src="icons/Vector.svg" alt="Play"/>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="projects__wrapper">
+        <img class="projects__img" src="icons/stics.svg" alt="stics"/>
+        <img class="projects__img" src="icons/computer.svg" alt="computer"/>
+        <img class="projects__img" src="icons/stics.svg" alt="stics"/>
+        <img class="projects__img" src="icons/computer.svg" alt="computer"/>
+        <img class="projects__img" src="icons/computer.svg" alt="computer"/>
+        <img class="projects__img" src="icons/stics.svg" alt="stics"/>
+        <img class="projects__img" src="icons/computer.svg" alt="computer"/>
+        <img class="projects__img" src="icons/stics.svg" alt="stics"/>
+        
+      </div>
+    </section>
+
+    <section class="form">
+      <div class="form__wrapper">
+        <h1 class="form__heading">Хотите веб-сайт?</h1>
+        <p class="form__paragraph">Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br/>
+          вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов <br/>
+          на латинице с начала XVI века.</p>
+        <form class="form__post">
+          <div class="form__data">
+            <input class="form__name" type="text" placeholder="Ваше имя"/>
+            <input class="form__email" type="text" placeholder="Ваш e-mail"/>
+          </div>
+          <input class="form__massege" type="text" placeholder="Сообщение"/>
+          <input class="form__submite btn" type="submit" value="ОТПРАВИТЬ"/>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__info">
+      <h3 class="footer__name">Иванов Иван</h3>
+      <p class="footer__text">(с) 2018. Все права защищены</p>
+    </div>
+
+    <div class="footer__icons">
+      <img class="footer_img" src="icons/footer_icons.svg" alt="website logo 'in contact'" width="174px" height="40px">
+    </div>
+  </footer>
+</body>
+
+</html>
