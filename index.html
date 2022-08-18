@@ -14,32 +14,36 @@
 <body class="container">
 
   <header class="header">
-    <img class="header__img" src="icons/WD.svg" height="60px" width="96px" alt="logotype" />
-    <nav class="header__nav">
-      <ul class="header__ul">
-        <li class="header__item"><a class="header__link header-link" href="#">ГЛАВНАЯ</a></li>
-        <li class="header__item"><a class="header__link" href="#">ОБ АВТОРЕ</a></li>
-        <li class="header__item"><a class="header__link" href="#">РАБОТЫ</a></li>
-        <li class="header__item"><a class="header__link" href="#">ПРОЦЕСС</a></li>
-        <li class="header__item"><a class="header__link" href="#">КОНТАКТЫ</a></li>
-      </ul>
-    </nav>
+    <div class="header__container">
+      <img class="header__img" src="icons/WD.svg" height="60px" width="96px" alt="logotype" />
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li class="header__item"><a class="header__link header-link" href="#">ГЛАВНАЯ</a></li>
+          <li class="header__item"><a class="header__link" href="#">ОБ АВТОРЕ</a></li>
+          <li class="header__item"><a class="header__link" href="#">РАБОТЫ</a></li>
+          <li class="header__item"><a class="header__link" href="#">ПРОЦЕСС</a></li>
+          <li class="header__item"><a class="header__link" href="#">КОНТАКТЫ</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main class="main">
     <section class="first-screen">
-      <div class="first-screen__design">
-        <h1 class="first-screen__heading">Дизайн и верстка</h1>
-        <br/>
-        <br/>
-        <p class="first-screen__description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br/>
-          вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов <br/>
-          на латинице с начала XVI века.</p>
+      <div class="first-screen__container">
+        <div class="first-screen__design">
+          <h1 class="first-screen__heading">Дизайн и верстка</h1>
           <br/>
           <br/>
-        <button class="btn">НАПИСАТЬ МНЕ</button>
-      </div>
-      <img class="first-screen__img" src="icons/Frame.svg" height="233.7px" width="357px" alt="open laptop book" />
+          <p class="first-screen__description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br/>
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов <br/>
+            на латинице с начала XVI века.</p>
+            <br/>
+            <br/>
+          <button class="btn">НАПИСАТЬ МНЕ</button>
+        </div>
+        <img class="first-screen__img" src="icons/Frame.svg" height="233.7px" width="357px" alt="open laptop book" />
+      </div> 
     </section>
 
     <section class="about-me">
@@ -106,15 +110,55 @@
 
     <section class="projects">
       <div class="projects__wrapper">
-        <img class="projects__img" src="icons/stics.svg" alt="stics"/>
-        <img class="projects__img" src="icons/computer.svg" alt="computer"/>
-        <img class="projects__img" src="icons/stics.svg" alt="stics"/>
-        <img class="projects__img" src="icons/computer.svg" alt="computer"/>
-        <img class="projects__img" src="icons/computer.svg" alt="computer"/>
-        <img class="projects__img" src="icons/stics.svg" alt="stics"/>
-        <img class="projects__img" src="icons/computer.svg" alt="computer"/>
-        <img class="projects__img" src="icons/stics.svg" alt="stics"/>
-        
+        <div class="projects__wrapper-img">
+          <img class="projects__img" src="icons/stics.svg" alt="stics"/>
+          <div class="projects__wrapper-hover">
+            <img class="projects__hover" src="icons/view.svg" alt="eye"/>
+          </div>
+        </div>
+        <div class="projects__wrapper-img">
+          <img class="projects__img" src="icons/computer.svg" alt="computer"/>
+          <div class="projects__wrapper-hover">
+            <img class="projects__hover" src="icons/view.svg" alt="eye"/>
+          </div>
+        </div>
+        <div class="projects__wrapper-img">
+          <img class="projects__img" src="icons/stics.svg" alt="stics"/>
+          <div class="projects__wrapper-hover">
+            <img class="projects__hover" src="icons/view.svg" alt="eye"/>
+          </div>
+        </div>
+        <div class="projects__wrapper-img">
+          <img class="projects__img" src="icons/computer.svg" alt="computer"/>
+          <div class="projects__wrapper-hover">
+            <img class="projects__hover" src="icons/view.svg" alt="eye"/>
+          </div>
+        </div>
+        <div class="projects__wrapper-img">
+          <img class="projects__img" src="icons/computer.svg" alt="computer"/>
+          <div class="projects__wrapper-hover">
+            <img class="projects__hover" src="icons/view.svg" alt="eye"/>
+          </div>
+        </div>
+        <div class="projects__wrapper-img">
+          <img class="projects__img" src="icons/stics.svg" alt="stics"/>
+          <div class="projects__wrapper-hover">
+            <img class="projects__hover" src="icons/view.svg" alt="eye"/>
+          </div>
+        </div>
+        <div class="projects__wrapper-img">
+          <img class="projects__img" src="icons/computer.svg" alt="computer"/>
+          <div class="projects__wrapper-hover">
+            <img class="projects__hover" src="icons/view.svg" alt="eye"/>
+          </div>
+        </div>
+        <div class="projects__wrapper-img">
+          <img class="projects__img" src="icons/stics.svg" alt="stics"/>
+          <div class="projects__wrapper-hover">
+            <img class="projects__hover" src="icons/view.svg" alt="eye"/>
+          </div>
+        </div>  
+        <!-- <div class="projects__wrapper-img"><img class="projects__hover" src="icons/view.svg" alt="eye"/></div> -->
       </div>
     </section>
 
@@ -137,13 +181,15 @@
   </main>
 
   <footer class="footer">
-    <div class="footer__info">
-      <h3 class="footer__name">Иванов Иван</h3>
-      <p class="footer__text">(с) 2018. Все права защищены</p>
-    </div>
-
-    <div class="footer__icons">
-      <img class="footer_img" src="icons/footer_icons.svg" alt="website logo 'in contact'" width="174px" height="40px">
+    <div class="footer__container">
+      <div class="footer__info">
+        <h3 class="footer__name">Иванов Иван</h3>
+        <p class="footer__text">(с) 2018. Все права защищены</p>
+      </div>
+  
+      <div class="footer__icons">
+        <img class="footer_img" src="icons/footer_icons.svg" alt="website logo 'in contact'" width="174px" height="40px">
+      </div>
     </div>
   </footer>
 </body>
